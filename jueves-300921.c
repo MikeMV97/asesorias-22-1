@@ -14,13 +14,6 @@ void arreglos(int *arreglo3, int N, int *num1){
     (*num1) = 2048;
 }
 
-
-
-
-
-
-
-
 // posibles:    0 1 2 3 4 5 6 7 8 9 10 11
 // a imprimir:  / 1 2 / 4 5 / 7 8 / 10 11
 // multiplos de tres: 3*m, m es un entero positivo
@@ -37,8 +30,11 @@ int n_es_multiplo_de_k(int n, int K){
     return false;
 
     // Otra solucion a la pregunta:
-    m = n / K;
-    return (m*K == n);
+    // m = n / K;
+    // return (m*K == n);
+
+    // Otra mas:
+    // return (n%K == 0);
 }
 
 void imprimir_no_multiplos_de_k(int K){
