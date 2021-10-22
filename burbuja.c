@@ -2,7 +2,7 @@
 
 void print(char *numeros, int N){
     int i;
-    for ( i =0 ; i < N ;i++) {
+    for ( i =0 ; i < N ; i++) {
         printf("%d ", numeros[i]);
     }
     printf("\n");
@@ -34,5 +34,3 @@ int main(void){
 
     return 0;
 }
-// 5 3 7 9 2 1
-// 1 2 3 5 7 9
